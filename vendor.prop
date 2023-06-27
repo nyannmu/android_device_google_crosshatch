@@ -5,3 +5,18 @@ media.mediadrmservice.enable=true
 # Graphics
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+<<<<<<< lineage-20
+=======
+ro.hwui.render_ahead=10
+
+# RIL Powersaving
+persist.radio.add_power_save=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=100
+
+# Perf
+ro.vendor.perf.scroll_opt=true
+>>>>>>> 7684467 b1c1: props: RIL edits for battery life. Changed “ro.ril.disable.power.collapse” value to zero. Seems to be a debate on what value is more effective but after more reading and testing found that a value of “0” shows more improvement. Have also added “ro.mot.eri.losalert.delay=1000 “ that helps smooth out disconnects and reconnects, saving battery.
