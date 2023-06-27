@@ -7,6 +7,7 @@ debug.sf.auto_latch_unsignaled=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 <<<<<<< lineage-20
+<<<<<<< lineage-20
 =======
 ro.hwui.render_ahead=10
 
@@ -20,6 +21,9 @@ ro.mot.eri.losalert.delay=100
 ro.vendor.use_data_netmgrd=true
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
+=======
+ro.hwui.render_ahead=10
+>>>>>>> a5bf548 b1c1: enable ro.hwui.render_ahead
 
 # Perf
 ro.vendor.perf.scroll_opt=true
