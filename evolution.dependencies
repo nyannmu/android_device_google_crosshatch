@@ -1,0 +1,14 @@
+[
+  {
+    "repository"  : "kernel_google_msm-4.9",
+    "target_path" : "kernel/google/msm-4.9"
+  },
+  {
+    "repository"  : "vendor_google_crosshatch",
+    "target_path" : "vendor/google/crosshatch"
+  },
+  {
+    "repository"  : "vendor_google_blueline",
+    "target_path" : "vendor/google/blueline"
+  }
+]
